@@ -8,7 +8,8 @@ This project is to load the 636 YAML data files (IPL matches) into MongoDB and u
 The loading process into MongoDB is written in Python. As mentioned above the two portions of data are loaded into two collections with match level details and ball by ball instructions as documents. 
 
 Things to Remember before execution of py script:
-1. This data is loaded into local host of MongoDB.Please set up the MongoDB in your local machine and keep it up and running before you execute the py script.If you wish to load data into any existing MongoDB servers, please change it to corresponding connection strings in the py file.
+1.Please download the YAML files from https://cricsheet.org/downloads/ (Indian Premier League) 
+2.This data is loaded into local host of MongoDB.Please set up the MongoDB in your local machine and keep it up and running before you execute the py script.If you wish to load data into any existing MongoDB servers, please change it to corresponding connection strings in the py file.
 2. Execute this python script in the location where  the YAML files are located. Since this is the inital version of the code, I havent implemented the input path to get the YAML files.
 
 Now the data is loaded into MongoDB and then the data analysis on IPL starts. Will include another py file soon on data analysis over IPL data in MongoDB.
