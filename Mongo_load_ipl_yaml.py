@@ -100,5 +100,5 @@ def log_print_time():
     print datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S.%f')[0:-3]
 
 if __name__ == "__main__":    
-    #load_ipl_data()
+    load_ipl_data()
     load_ball_by_ball_data()
